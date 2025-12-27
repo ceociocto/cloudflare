@@ -160,6 +160,12 @@ my-worker-app/
 └── ...
 ```
 
+## 本地开发
+- 注意，需要 `opennextjs-cloudflare` 生成 `.open-next/worker.js` 和其他相关文件，所以本地开发预览要使用下面命令。
+```
+npm run preview
+```
+
 ## ☁️ 部署到 Cloudflare Pages
 
 项目创建后，按照生成的 README.md 配置 Cloudflare Pages 自动部署：
